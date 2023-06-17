@@ -1,0 +1,43 @@
+.card{
+    padding: 40px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h3{
+    font-size: 10px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 6px;
+    font-weight: 400;
+}
+
+.button{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+button:hover{
+    transition: 0.3s;
+    color: black;
+}
+
+.Delete{
+    color: red;
+}
+
+.Update{
+    color: greenyellow;
+}
